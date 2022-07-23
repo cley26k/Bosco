@@ -979,12 +979,12 @@ const ftrol = {
         timestampe = speed();
         latensie = speed() - timestampe
  hehe = `
- ▢ Hɪ Bʀᴏ @${sender.split("@")[0]}
- ▢ Pʀɪᴠᴀᴛᴇ : ${privat.length}
- ▢ Gʀᴏᴜᴘs : ${groups.length}
- ▢ Tᴏᴛᴀʟ : ${totalChat.length}
- ▢ Sᴘᴇᴇᴅ : ${latensie.toFixed(4)}
- ▢ Bᴀᴛᴛᴇʀʏ : ${baterai}%\n
+ ▢ Hola Bro @${sender.split("@")[0]}
+ ▢ Private : ${privat.length}
+ ▢ Grupos : ${groups.length}
+ ▢ Total : ${totalChat.length}
+ ▢ Velocidad : ${latensie.toFixed(4)}
+ ▢ Batería : ${baterai}%\n
  ${jmn} -  ${jmo}\n${week} - ${calender}
  `
  menubutton = [{buttonId:`${prefix}help`,buttonText:{displayText:'MENU'},type:1},
@@ -1219,7 +1219,7 @@ catlo(storage1)
 
 ▢ ${prefix}lyric
 
-?? ${prefix}playstore
+▢ ${prefix}playstore
 
 ▢ ${prefix}mediafire
 
