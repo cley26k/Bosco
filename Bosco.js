@@ -1243,17 +1243,17 @@ catlo(download1)
     
    case 'rules':
            rules1 = `
------[ 𝑹 𝑼 𝑳 𝑬 𝑺 ]-----
+-----[ R E G L A S ]-----
 
-1. 𝙳𝙾𝙽𝚃 𝙲𝙰𝙻𝙻 𝙱𝙾𝚃
+1. No Llamé Al Bot
 
-2. 𝙳𝙾𝙽𝚃 𝚂𝙿𝙰𝙼 𝙱𝙾𝚃
+2. No Haga Spam En El Bot
 
-3. 𝙳𝙾𝙽𝚃 𝙿𝙼 𝙱𝙾𝚃
+3. No Agregue Al Bot A Grupos
 
-4. 𝙳𝙾𝙽𝚃 𝙼𝙸𝚂𝚄𝚂𝙴 𝚃𝙷𝙴 𝙱𝙾𝚃
+4. No Hagas Mal Uso Del Bot
 
-5. 𝙰𝙽𝚈 𝙿𝚁𝙾𝙱𝙻𝙰𝙼 𝙲𝙾𝙽𝚃𝙰𝙲𝚃 𝙾𝚄𝚁 𝙾𝚆𝙽𝙴𝚁
+5. Cualquier Problema Contacte Con Su Dueño
 wa.me/${owner}`
        osk = bosco.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 1000, "message": `${rules1}`, "footerText": "hehe", "thumbnail": denis, "surface": 'CATALOG'}}, {quoted: mek})
             bosco.relayWAMessage(osk)
@@ -2492,7 +2492,7 @@ teks = `
 						fs.writeFileSync('./database/kickarea.json', JSON.stringify(kickarea))
 						sendFakeStatus(from, `sᴜᴄᴄᴇss`, fake)
 					} else {
-						reply('1 ᴛᴏ ᴛᴜʀɴ ᴏɴ, 0 ᴛᴏ ᴛᴜʀɴ ᴏғғ')
+						reply('1 To Turn On, 0 To Turn Oғғ')
 					}
 						break
 
@@ -2570,16 +2570,16 @@ teks = `
                })
                reply(`.•♫•♬• Playing ${res.all[0].title} •♬•♫•.`)
                let thumbInfo = `
-📜 Tɪᴛʟᴇ : ${res.all[0].title}
-🎁 Tʏᴘᴇ : mp3
-📬 Iᴅ : ${res.all[0].videoId}
-🌐 Pᴜʙʟɪᴄᴀᴛɪᴏɴ : ${res.all[0].ago}
-🎞️ Wᴀᴛᴄʜᴇᴅ : ${res.all[0].views}
-⚖️ Dᴜʀᴀᴛɪᴏɴ : ${res.all[0].timestamp}
-🎥 Cʜᴀɴɴᴇʟ : ${res.all[0].author.name}
-🖇️ Lɪɴᴋ : ${res.all[0].author.url}
+📜 Title : ${res.all[0].title}
+🎁 Type : mp3
+📬 ID : ${res.all[0].videoId}
+🌐 Publication : ${res.all[0].ago}
+🎞️ Webb : ${res.all[0].views}
+⚖️ Duration : ${res.all[0].timestamp}
+🎥 Channel : ${res.all[0].author.name}
+🖇️ Link : ${res.all[0].author.url}
 
-*Pʟᴇᴀsᴇ Wᴀɪᴛ Sᴏɴɢ Lᴏᴀᴅɪɴɢ....*`
+*Please Wait Song Loading....*`
 
                sendFileFromUrl(res.all[0].image, image, {quoted: mek, thumbnail: Buffer.alloc(0), caption: thumbInfo})
                res = await y2mateA(res.all[0].url).catch(e => {
@@ -2885,7 +2885,8 @@ case 'emoji':
             case 'imagelist':
 				case 'listimage':
 					teks = '*ListImages :*\n\n'
-					for (let awokwkwk of imagi) {
+					for (let awokwkwk of imagiAtasan grup mah bebas yakan 
+) {
 						teks += `- ${awokwkwk}\n`
 					}
 					teks += `\n*Total : ${imagi.length}*\n\n_Type Any Image_`
@@ -2910,7 +2911,7 @@ case 'emoji':
       case 'speed':
               timestampe = speed();
               latensie = speed() - timestampe
-              reply(`*「 𝙎𝙋𝙀𝙀𝘿 𝙏𝙀𝙎𝙏 」*\nRespond in ${latensie.toFixed(4)} Sec 💬`)
+              reply(`*「 Speed Test 」*\nRespond in ${latensie.toFixed(4)} Sec 💬`)
               break
 
 //------------------< Game >-------------------
